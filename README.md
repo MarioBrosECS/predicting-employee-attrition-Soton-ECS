@@ -3,11 +3,11 @@
 A repo for Human Resources Analytics by using data mining
 
 ### Deadlines of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
-| Tasks | Dates | Handin Links |
-| :----------: | :---: | :------------: |
-| Build Algorithm | 6-Feb-2018 14:00 | Talk Through After Class |
-| Project Brief | 16-Feb-2018 16:00 | [Brief Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) |
-| Conference Paper | 16-May-2018 16:00 | [Final Paper Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) |
+| Tasks | Dates | Handin Links | Tasks Status |
+| :-----: | :-----: | :--------------: | :-------------: |
+| Build Algorithm | 6-Feb-2018 14:00 | Talk Through After Class | Open |
+| Project Brief | 16-Feb-2018 16:00 | [Brief Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Open |
+| Conference Paper | 16-May-2018 16:00 | [Final Paper Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Open |
 
 ### Work Flow
 Follow Github Flow
