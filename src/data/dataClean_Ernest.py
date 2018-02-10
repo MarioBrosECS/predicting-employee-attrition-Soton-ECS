@@ -5,7 +5,7 @@ import pandas as pd
 
 # read csv file
 
-filename = '../../data/hrOriginData.csv'
+filename = '../../data/data_Ernest/hrOriginData.csv'
 dataSet = pd.read_csv(filename)
 
 # delete useless col 
@@ -18,7 +18,8 @@ del dataSet['StandardHours']
 
 #TODO delete incomplete data
 #TODO delete repeat data
+dataSet.drop_duplicates(keep='first', inplace=True)
 
 #save csv
-dataSet.to_csv('../../data/entireDataSet_Ernest.csv', index=False)
+dataSet.to_csv('../../data/data_Ernest/entireDataSet_Ernest.csv', index=False)
 
