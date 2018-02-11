@@ -24,19 +24,21 @@ gain_ratio = 0
 
 for index in dataSet.columns :
     if index != 'Attrition':
-        gain_department = API_Ernest.gainD(dataSet, index, ent_attrition, 'Attrition')
-        IV_department = API_Ernest.getIV(dataSet, index)
-        gain_ratio_department = gain_department / IV_department
-        if gain_department > gain :
-            gain = gain_department
+
+        gainDic_feature = API_Ernest.getGainDicByFeature(dataSet, index, ent_attrition, 'Attrition')
+
+        gain_ratio_feature = gainDic_feature['gain'] / gainDic_feature['IV']
+
+        if gainDic_feature['gain'] > gain :
+            gain = gainDic_feature['gain']
             bestFeature = index
-        if gain_ratio_department > gain_ratio :
-            gain_ratio = gain_ratio_department
+
+        if gain_ratio_feature > gain_ratio :
+            gain_ratio = gain_ratio_feature
             bestRatioFeature = index
 
 print('Best feature by gain is' ,bestFeature)
 print('Its gain is ' ,gain)
 print('Best feature by gain_ratio is' ,bestRatioFeature)
 print('Its gain_ratio is ' ,gain_ratio)
-
 
