@@ -18,7 +18,7 @@ for i in dataSet.index :
         testData.loc[indexNum] = dataSet.loc[i] 
         indexNum += 1
         
-trainSet.reset_index(drop=False)
+trainSet.reset_index(drop=True)
 
 #save csv
 trainSet.to_csv('./data/data_Ernest/trainData_holdOut_Ernest.csv', index=False)
