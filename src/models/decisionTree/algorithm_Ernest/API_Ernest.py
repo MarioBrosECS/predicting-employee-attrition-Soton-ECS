@@ -11,7 +11,7 @@ def entD (dataSet, feature) :
 
 
 # compute gain and IV, return a Dict
-def getGainDicByFeature(dataSet, feature, entDValue, entD_feature) :
+def getGainDicByFeature(dataSet, feature, entDValue, entD_feature,entireAttrSet) :
 
     valuesRateList = dataSet[feature].value_counts(normalize=True)
     num = len(valuesRateList)
@@ -25,7 +25,10 @@ def getGainDicByFeature(dataSet, feature, entDValue, entD_feature) :
 
     # Use dichotomy to handle continuous discrete attributes
     # Judge whether it is a continuous value
-    if( len(valuesRateList) >=15 and str(valuesList[valuesList.index[0]]).isdigit()) :
+
+    #print(entireAttrSet[feature])
+    #print(isinstance( entireAttrSet['Department'],dict) )
+    if( entireAttrSet[feature]['ifContinuous']) :
         dict = _getGainDicByFeatureInContinuous(dataSet, feature, entDValue, entD_feature )
         return dict
     else :
@@ -43,7 +46,6 @@ def getGainDicByFeature(dataSet, feature, entDValue, entD_feature) :
 
 
 def attrSetGenerate (dataSet) :
-    #print(dataSet)
     #print('current Function: attrSetGenerate') 
 
     attrSet = {}
@@ -52,7 +54,7 @@ def attrSetGenerate (dataSet) :
         if index!='Attrition' :
             #print('current Feature: ',index)
             
-            attrSet[index] = []
+            attrSet[index] = {}
             valuesList = dataSet[index]
             valuesRateList = dataSet[index].value_counts(normalize=True)
             num = len(valuesRateList)
@@ -64,9 +66,11 @@ def attrSetGenerate (dataSet) :
                 attrSet[index] = {'ifContinuous':True}
 
             else :
+                attrSet[index]['Attribution'] = []
                 for i in range(num) :
-                    attrSet[index].append(valuesRateList.index[i])
+                    attrSet[index]['Attribution'].append(valuesRateList.index[i])
                     #print(valuesRateList.index[i])
+                    attrSet[index]['ifContinuous'] = False
 
     #print(attrSet)
     return attrSet
