@@ -4,17 +4,17 @@ import csv
 import pandas as pd
 import math
 import API_Ernest
+import pickle
 
-filename = './data/data_Ernest/entireDataSet_Ernest.csv'
+filename = './data/data_Ernest/trainData_holdOut_Ernest.csv'
 dataSet = pd.read_csv(filename)
-entireDataSet = dataSet.copy()
+
 predictfeature = 'Attrition'
 entireAttrSet = API_Ernest.attrSetGenerate(dataSet)
-#print(entireAttrSet)
 decisionTree = {}
 
 def treeGenerate(dataSet, decisionTree) :
-    #print('create new node')
+    print('create new node')
     ent_attrition = API_Ernest.entD(dataSet, 'Attrition')
 
     global entireAttrSet
@@ -40,12 +40,12 @@ def treeGenerate(dataSet, decisionTree) :
     bestFeature = ''
     bestBoundary = 0
 
-    #print('Current Function: find best feature')
+    print('Current Function: find best feature')
     for index in dataSet.columns :
         if index != 'Attrition' :
             gainDic_feature = API_Ernest.getGainDicByFeature(dataSet, index, ent_attrition, 'Attrition', entireAttrSet)
-            #print('Current feature', index)
-            #print('Gain',gainDic_feature['gain'])
+            print('Current feature', index)
+            print('Gain',gainDic_feature['gain'])
 
 
             if gainDic_feature['gain'] > gain :
@@ -57,10 +57,8 @@ def treeGenerate(dataSet, decisionTree) :
                     bestBoundary = gainDic_feature['bestBoundary'] 
     
     decisionTree[bestFeature] = {}
-    #print(bestBoundary) 
 
     if (entireAttrSet[bestFeature]['ifContinuous']) :
-            #print(bestFeature)
             decisionTree[bestFeature]['>='+ str(bestBoundary)]= {}
             decisionTree[bestFeature]['<'+ str(bestBoundary)]= {}
             subDataBig = dataSet.loc[dataSet[bestFeature] >= bestBoundary ]
@@ -95,16 +93,15 @@ def treeGenerate(dataSet, decisionTree) :
     return decisionTree
     
 decisionTree = treeGenerate(dataSet, decisionTree)
-print(decisionTree)
-#print(entireAttrSet);
+#print(decisionTree)
+
 #print(type(entireAttrSet['BusinessTravel']) )
 #print(dataSet.loc[dataSet['MonthlyRate'] <=100000]) 
 #print(dataSet['Department'])
 
-
-
-
-
-
+ 
+pickle.dump(decisionTree, open("./models/decisionTree_Ernest", "wb"))
+ 
+#print(obj2)
 
 
