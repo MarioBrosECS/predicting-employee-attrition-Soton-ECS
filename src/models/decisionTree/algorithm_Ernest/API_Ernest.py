@@ -23,11 +23,7 @@ def getGainDicByFeature(dataSet, feature, entDValue, entD_feature,entireAttrSet)
     sum = 0
     IV = 0
 
-    # Use dichotomy to handle continuous discrete attributes
     # Judge whether it is a continuous value
-
-    #print(entireAttrSet[feature])
-    #print(isinstance( entireAttrSet['Department'],dict) )
     if( entireAttrSet[feature]['ifContinuous']) :
         dict = _getGainDicByFeatureInContinuous(dataSet, feature, entDValue, entD_feature )
         return dict
@@ -58,7 +54,7 @@ def attrSetGenerate (dataSet) :
             valuesList = dataSet[index]
             valuesRateList = dataSet[index].value_counts(normalize=True)
             num = len(valuesRateList)
-            #print(valuesList.index[0])
+
             #Judge whether it is a continuous value
             if( len(valuesRateList) >=15 and str(valuesList[valuesList.index[0]]).isdigit()) :
                 #dict = _getGainDicByFeatureInContinuous(dataSet, index, ent_attrition, 'Attrition')
@@ -143,6 +139,26 @@ def getClass(dataSet, predictfeature) :
             bestRate = valuesRateList[valuesRateList.index[i]]
 
     return bestClass
+
+def featureClass(tree, data):
+    curNode = list(tree.keys())
+    if curNode[0] == 'Attrition' :
+        return tree['Attrition']
+    else :
+        keyList = list(tree[curNode[0]].keys())
+        if(ifContinuous(keyList)) :
+            if(eval(str(data[curNode[0]]) + keyList[0])) :
+                return featureClass(tree[curNode[0]][keyList[0]],data)
+            else :
+                return featureClass(tree[curNode[0]][keyList[1]],data)
+        else :
+            return featureClass(tree[curNode[0]][data[curNode[0]]],data)
+
+def ifContinuous(keyList) :
+    for i in keyList :
+        if '>=' in str(i) :
+            return True
+    return 0 
 
 
 

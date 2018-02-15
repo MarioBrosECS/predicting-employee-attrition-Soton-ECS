@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-import csv
 import pandas as pd
-import math
 import API_Ernest
 import pickle
 
@@ -33,6 +31,7 @@ def treeGenerate(dataSet, decisionTree) :
         
         featureClass = API_Ernest.getClass(dataSet, predictfeature)
         decisionTree[predictfeature] = featureClass
+        return
 
     #compute every feature and get best one
     gain = 0
@@ -41,20 +40,37 @@ def treeGenerate(dataSet, decisionTree) :
     bestBoundary = 0
 
     print('Current Function: find best feature')
+    
+    gainSum = 0
+    attrNum = 0
+    feature_gainDict = {}
+    gain_ratio = 0
     for index in dataSet.columns :
         if index != 'Attrition' :
             gainDic_feature = API_Ernest.getGainDicByFeature(dataSet, index, ent_attrition, 'Attrition', entireAttrSet)
+            feature_gainDict[index] = gainDic_feature
             print('Current feature', index)
             print('Gain',gainDic_feature['gain'])
 
-
+            gainSum += gainDic_feature['gain']
+            attrNum += 1
+            #ID3 algorithm
+            '''
             if gainDic_feature['gain'] > gain :
                 gain = gainDic_feature['gain']
                 bestFeature = index
-                if bestFeature == 'YearsSinceLastPromotion' :
-                    print(gainDic_feature)
                 if gainDic_feature['continuous'] :
                     bestBoundary = gainDic_feature['bestBoundary'] 
+            '''
+    gainAverage = gainSum / attrNum 
+    for index in feature_gainDict :
+        if feature_gainDict[index]['gain'] > gainAverage :
+            gain_ratio_feature = feature_gainDict[index]['gain'] / feature_gainDict[index]['IV']
+            if gain_ratio_feature > gain_ratio :
+                gain_ratio = gain_ratio_feature
+                bestFeature = index
+                if feature_gainDict[index]['continuous'] :
+                    bestBoundary = feature_gainDict[index]['bestBoundary'] 
     
     decisionTree[bestFeature] = {}
 
@@ -93,15 +109,8 @@ def treeGenerate(dataSet, decisionTree) :
     return decisionTree
     
 decisionTree = treeGenerate(dataSet, decisionTree)
-#print(decisionTree)
-
-#print(type(entireAttrSet['BusinessTravel']) )
-#print(dataSet.loc[dataSet['MonthlyRate'] <=100000]) 
-#print(dataSet['Department'])
-
  
 pickle.dump(decisionTree, open("./models/decisionTree_Ernest", "wb"))
  
-#print(obj2)
 
 
