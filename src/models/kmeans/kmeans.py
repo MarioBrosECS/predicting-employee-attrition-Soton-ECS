@@ -3,7 +3,7 @@ import pandas as pd
 from collections import Counter
 import pygal
 
-datafile = 'data2.xlsx' #the data after Preliminary cleaning(change the character string to int)
+datafile = 'kmeans_data.xlsx' #the data after Preliminary cleaning(change the character string to int)
 data = pd.read_excel(datafile)
 #standardization
 
