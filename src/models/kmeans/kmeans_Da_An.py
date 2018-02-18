@@ -2,9 +2,11 @@ from sklearn.cluster import KMeans
 import pandas as pd
 from collections import Counter
 import pygal
+#import csv
 
-datafile = 'kmeans_data.xlsx' #the data after Preliminary cleaning(change the character string to int)
-data = pd.read_excel(datafile)
+datafile = '../../../data/data_Da/kmeans_data_Da.csv' #the data after Preliminary cleaning(change the character string to int)
+data = pd.read_csv(datafile)
+#data.to_csv('../../../data/data_Da/kmeans_data_Da.csv', index=False)
 #standardization
 
 data = (data - data.mean(axis = 0))/(data.std(axis = 0))
@@ -33,9 +35,9 @@ radar_chart.title = 'results'
 # 添加雷达图各顶点的含义 随便挑了5个
 radar_chart.x_labels = ['department','education','EnvironmentSatisfaction','HourlyRate','MonthlyIncome']
 
-# 绘制两条雷达图区域
+# 绘制雷达图区域
 
 radar_chart.add('feature1', centre1_feature)
 
 # save the image ,open the image in the project folder
-radar_chart.render_to_file('radar_chart.svg')
+radar_chart.render_to_file('../../../src/visualization/radar_chart_Da.svg')
