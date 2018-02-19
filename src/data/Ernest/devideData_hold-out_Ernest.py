@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-filename = './data/data_Ernest/DataCleanByTed.csv'
+filename = './data/data_Ernest/DataCleanByTed_regularizated.csv'
 dataSet = pd.read_csv(filename)
 
 trainData_Rate = 0.75

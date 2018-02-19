@@ -73,7 +73,6 @@ X = X.T
 Y = testDataSet['Attrition']
 correct = 0
 List = Y.value_counts(normalize=True)
-print(List)
 
 for i in range(len(Y)) :
     Xi = X[:,i]
