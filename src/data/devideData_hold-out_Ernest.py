@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-filename = './data/data_Ernest/entireDataSet_Ernest.csv'
+filename = './data/data_Ernest/DataCleanByTed.csv'
 dataSet = pd.read_csv(filename)
 
 trainData_Rate = 0.75
@@ -21,6 +21,6 @@ for i in dataSet.index :
 trainSet.reset_index(drop=True)
 
 #save csv
-trainSet.to_csv('./data/data_Ernest/trainData_holdOut_Ernest.csv', index=False)
-testData.to_csv('./data/data_Ernest/testData_holdOut_Ernest.csv', index=False)
+trainSet.to_csv('./data/data_Ernest/trainDataCleanByTed.csv', index=False)
+testData.to_csv('./data/data_Ernest/testDataCleanByTed.csv', index=False)
 
