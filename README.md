@@ -5,7 +5,7 @@ A repo for Human Resources Analytics by using data mining
 ### Dates of Meetings and Other Tasks
 | Tasks | Dates | Handin Links | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
-| Basic Algorithm Talk | 19-Feb-2018 12:00 | Talk Through After Class | Open |
+| Next Meeting | TBC | TBC | TBC |
 
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Handin Links | Tasks Status |
@@ -18,6 +18,7 @@ A repo for Human Resources Analytics by using data mining
 | Build Algorithm | Delayed to 14-Feb-2018 11:45 | Talk Through After Class | Closed |
 | Review of Brief | 15-Feb-2018 00:00 | [First Brief Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed |
 | Project Brief | 16-Feb-2018 16:00 | [Brief Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed 2nd Ver. handed |
+| Basic Algorithm Talk | 19-Feb-2018 16:00 | Talk Through After Class | Closed |
 
 ### Work Flow
 Follow Github Flow
