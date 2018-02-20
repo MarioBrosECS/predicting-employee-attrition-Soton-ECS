@@ -1,6 +1,10 @@
 # Ernest’s work
 
-## data clean
+- [Data Clean](#dataClean)
+- [Decision Tree](#DecisionTree)
+- [Conclusion](#Conclusion)
+
+<h2 id= 'dataClean'> Data Clean </h2>
 
 ### hard code to delete useless cols
 including: 
@@ -17,7 +21,7 @@ The data set is divided into training set and test set in the ratio of 3: 1.
 
 The new dataSets are n data/data\_Ernest dict.
 
-## Decision Tree
+<h2 id= 'DecisionTree'> Decision Tree </h2>
 
 ### Brief Introduction
 
@@ -55,9 +59,10 @@ Using dichotomies and greedy algorithms, select the demarcation point that maxim
 
 The reason why use postpruning is that it can better improve the generalization ability, and the current data less, making the pruning process time will not be too long
 
-#### Conclusion
+<h2 id= 'logisticRegression'> Logistic Regression </h2>
+
+<h2 id = 'Conclusion'> Conclusion </h2>
 
 The initial result is not entirely satisfactory and needs to be further improved.
 
-#### Test to Anda
-zzz
+
