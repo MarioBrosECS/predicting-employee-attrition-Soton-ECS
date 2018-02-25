@@ -1,37 +1,116 @@
 # predicting-employee-attrition-Soton-ECS
-### Description
+## Description
 A repo for Human Resources Analytics by using data mining
 
+## Deadline Tables
 ### Dates of Meetings and Other Tasks
-| Tasks | Dates | Handin Links | Tasks Status |
+| Tasks | Dates | Hand in Links | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
 | Next Meeting | TBC | TBC | TBC |
 
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
-| Tasks | Dates | Handin Links | Tasks Status |
+| Tasks | Dates | Hand in Links | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
-| Conference Paper | 16-May-2018 16:00 | [Final Paper Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Open |
+| Conference Paper | 16-May-2018 16:00 | [Final Paper Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Open |
 
 ### Overdue Deadlines
-| Tasks | Dates | Handin Links | Tasks Status |
+| Tasks | Dates | Hand in Links | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
 | Build Algorithm | Delayed to 14-Feb-2018 11:45 | Talk Through After Class | Closed |
-| Review of Brief | 15-Feb-2018 00:00 | [First Brief Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed |
-| Project Brief | 16-Feb-2018 16:00 | [Brief Handin](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed 2nd Ver. handed |
+| Review of Brief | 15-Feb-2018 00:00 | [First Brief Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed |
+| Project Brief | 16-Feb-2018 16:00 | [Brief Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed 2nd Ver. handed |
 | Basic Algorithm Talk | 19-Feb-2018 16:00 | Talk Through After Class | Closed |
 
-### Work Flow
-Follow Github Flow
-### Tech Stack
+## Weekly Summary of The Work
+1. [Yang Zhou ~ Ernest ~ moonsin](#Yang-Zhou-~-Ernest-~-moonsin)
+2. [Bang Du ~ Tedbang](#Bang-Du-~-TedBang)
+3. [Da An ~ windknow123](#Da-An-~-windknow123)
+4. [Zihan Wang ~ wzhyzrsyj](#Zihan-Wang-~-wzhyzrsyj)
+5. [Mardhiyyah Rafrin](#Mardhiyyah-Rafrin)
 
-#### Python3 and main related modules
+### Yang Zhou ~ Ernest ~ moonsin
+1. Decision Tree (Python) - 84%
+    - Choosing best node for the three
+        - Comparing information ratio to select the best feature.
+    - Handling continuous values
+        - To maximize the information gain by using dichotomies and greedy algorithms.
+    - Post pruning
+        - To improve the generalization ability.
+        
+2. Logistic Regression (Python) - 87%
+    - Getting the expression of logistic regression by using sigmoid function.
+    - Using maximum likelihood method and get an expression.
+    - Using Newton's method to get the unknown parameter of the expression.
+
+3. Data Cleaning (Python)
+    - Deleted useless columns
+    - Deleted repeating data
+    - Compared information gain & information gain ratio
+    - Data Segmentation
+        - Randomly divides data into training and test set with the ratio of 3:1
+    - Data Regularization
+        - To normalize the data which transforms a value into a new value between 0 and 1. (More on quantified data)
+
+### Bang Du ~ Tedbang
+1. PCA (R) - 87~88%
+    - Logistic Regression
+    - Stepwise Regression
+    - Random Forest after using PCA.  Then construct ROC and K-fold cross-validation (Under Construction)
+    
+2. Data Cleaning (Python)
+    - Data Quantization
+
+3. Data Analysis (R)
+    - Correlation Coefficient
+        - Using describe method to observe data information which includes mean, variance etc.
+        - Using cor method to find the correlation coefficient between each feature and other ones.
+    - Stepwise Regression
+        -To find the unbalanced data
+
+### Da An ~ windknow123
+1. K-means (Python) - May be discarded
+
+2. Fisher (Under Construction - Python)
+
+3. Data Cleaning (Python)
+    - Deleted useless columns
+    - Change the character string into int
+    - Data Standardisation
+
+4. Data Visualization
+    - Showing that different clusters have different features in a radar chart.
+
+### Zihan Wang ~ wzhyzrsyj
+1. Random Survival Forest (R) - 83%
+    - Appear to have less accuracy result, may be discarded.
+
+2. Data Visualization (To be proved)
+    - A graph of decision tree
+    - Analysis to the features
+
+### Mardhiyyah Rafrin
+1. SVM - 85%
+    - When tried normalisation, it will be reduced to 83%.
+
+2. Data Analysis
+    - Had paper about imbalance dataset for SVM. (Under construction)
+    
+3. Data Cleaning
+    - Basic data cleaning to be applied with SVM.
+
+## Work Flow
+Follow Github Flow
+
+## Tech Stack
+
+### Python3 and main related modules
 - pandas
 
-#### Tableau
-#### matlab
-#### R
+### Tableau
+### matlab
+### R
 
-### Project Structure
+## Project Structure
 Follow the structure from [https://n3xtchen.github.io/n3xtchen/data\_analytics/2017/05/17/data-science-project-rule][1]
 
 [1]:	https://n3xtchen.github.io/n3xtchen/data_analytics/2017/05/17/data-science-project-rule
