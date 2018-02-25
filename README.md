@@ -1,4 +1,20 @@
 # predicting-employee-attrition-Soton-ECS
+## Table of Contents
+1. ### [Description](#description)
+2. ### [Deadline Tables](#deadline-tables)
+    - [Dates of Meetings and Other Tasks](#dates-of-meetings-and-other-tasks)
+    - [Deadline of The Group Coursework](#deadline-of-the-group-coursework)
+    - [Overdue Deadlines](#overdue-deadlines)
+3. ### [Weekly Summary of The Work](#weekly-summary-of-the-work)
+    - [Yang Zhou ~ Ernest ~ moonsin](#yang-zhou--ernest--moonsin)
+    - [Bang Du ~ Tedbang](#bang-du--tedbang)
+    - [Da An ~ windknow123](#da-an--windknow123)
+    - [Zihan Wang ~ wzhyzrsyj](#zihan-wang--wzhyzrsyj)
+    - [Mardhiyyah Rafrin](#mardhiyyah-rafrin)
+4. ### [Work Flow](#work-flow)
+5. ### [Tech Stack](#tech-stack)
+6. ### [Project Structure](#project-structure)
+
 ## Description
 A repo for Human Resources Analytics by using data mining
 
@@ -22,13 +38,13 @@ A repo for Human Resources Analytics by using data mining
 | Basic Algorithm Talk | 19-Feb-2018 16:00 | Talk Through After Class | Closed |
 
 ## Weekly Summary of The Work
-1. [Yang Zhou ~ Ernest ~ moonsin](#Yang-Zhou-~-Ernest-~-moonsin)
-2. [Bang Du ~ Tedbang](#Bang-Du-~-TedBang)
-3. [Da An ~ windknow123](#Da-An-~-windknow123)
-4. [Zihan Wang ~ wzhyzrsyj](#Zihan-Wang-~-wzhyzrsyj)
-5. [Mardhiyyah Rafrin](#Mardhiyyah-Rafrin)
+1. [Yang Zhou ~ Ernest ~ moonsin](#yang-zhou--ernest--moonsin)
+2. [Bang Du ~ Tedbang](#bang-du--tedbang)
+3. [Da An ~ windknow123](#da-an--windknow123)
+4. [Zihan Wang ~ wzhyzrsyj](#zihan-wang--wzhyzrsyj)
+5. [Mardhiyyah Rafrin](#mardhiyyah-rafrin)
 
-### Yang Zhou ~ Ernest ~ moonsin
+### [Yang Zhou ~ Ernest ~ moonsin](#weekly-summary-of-the-work)
 1. Decision Tree (Python) - 84%
     - Choosing best node for the three
         - Comparing information ratio to select the best feature.
@@ -51,7 +67,7 @@ A repo for Human Resources Analytics by using data mining
     - Data Regularization
         - To normalize the data which transforms a value into a new value between 0 and 1. (More on quantified data)
 
-### Bang Du ~ Tedbang
+### [Bang Du ~ Tedbang](#weekly-summary-of-the-work)
 1. PCA (R) - 87~88%
     - Logistic Regression
     - Stepwise Regression
@@ -67,7 +83,7 @@ A repo for Human Resources Analytics by using data mining
     - Stepwise Regression
         -To find the unbalanced data
 
-### Da An ~ windknow123
+### [Da An ~ windknow123](#weekly-summary-of-the-work)
 1. K-means (Python) - May be discarded
 
 2. Fisher (Under Construction - Python)
@@ -80,7 +96,7 @@ A repo for Human Resources Analytics by using data mining
 4. Data Visualization
     - Showing that different clusters have different features in a radar chart.
 
-### Zihan Wang ~ wzhyzrsyj
+### [Zihan Wang ~ wzhyzrsyj](#weekly-summary-of-the-work)
 1. Random Survival Forest (R) - 83%
     - Appear to have less accuracy result, may be discarded.
 
@@ -88,7 +104,7 @@ A repo for Human Resources Analytics by using data mining
     - A graph of decision tree
     - Analysis to the features
 
-### Mardhiyyah Rafrin
+### [Mardhiyyah Rafrin](#weekly-summary-of-the-work)
 1. SVM - 85%
     - When tried normalisation, it will be reduced to 83%.
 
