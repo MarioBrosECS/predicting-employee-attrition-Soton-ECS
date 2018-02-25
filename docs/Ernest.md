@@ -2,7 +2,7 @@
 
 - [Data Clean](#dataClean)
 - [Decision Tree](#DecisionTree)
-- [Conclusion](#Conclusion)
+- [Conclusion](#conclusion)
 
 <h2 id= 'dataClean'> Data Clean </h2>
 
@@ -61,7 +61,7 @@ The reason why use postpruning is that it can better improve the generalization 
 
 <h2 id= 'logisticRegression'> Logistic Regression </h2>
 
-<h2 id = 'Conclusion'> Conclusion </h2>
+## Conclusion 
 
 The initial result is not entirely satisfactory and needs to be further improved.
 
