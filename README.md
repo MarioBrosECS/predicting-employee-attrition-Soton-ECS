@@ -15,10 +15,10 @@
 5. ### [Tech Stack](#tech-stack-1)
 6. ### [Project Structure](#project-structure-1)
 
-## [Description](#description)
+## [Description](#table-of-contents)
 A repo for Human Resources Analytics by using data mining
 
-## [Deadline Tables](#deadline-tables)
+## [Deadline Tables](#table-of-contents)
 ### Dates of Meetings and Other Tasks
 | Tasks | Dates | Hand in Links | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
@@ -37,7 +37,7 @@ A repo for Human Resources Analytics by using data mining
 | Project Brief | 16-Feb-2018 16:00 | [Brief Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed 2nd Ver. handed |
 | Basic Algorithm Talk | 19-Feb-2018 16:00 | Talk Through After Class | Closed |
 
-## [Weekly Summary of The Work](#weekly-summary-of-the-work)
+## [Weekly Summary of The Work](#table-of-contents)
 1. [Yang Zhou ~ Ernest ~ moonsin](#yang-zhou--ernest--moonsin)
 2. [Bang Du ~ Tedbang](#bang-du--tedbang)
 3. [Da An ~ windknow123](#da-an--windknow123)
@@ -114,10 +114,10 @@ A repo for Human Resources Analytics by using data mining
 3. Data Cleaning
     - Basic data cleaning to be applied with SVM.
 
-## [Work Flow](#work-flow)
+## [Work Flow](#table-of-contents)
 Follow Github Flow
 
-## [Tech Stack](#tech-stack)
+## [Tech Stack](#table-of-contents)
 
 ### Python3 and main related modules
 - pandas
@@ -126,7 +126,7 @@ Follow Github Flow
 ### matlab
 ### R
 
-## [Project Structure](#project-structure)
+## [Project Structure](#table-of-contents)
 Follow the structure from [https://n3xtchen.github.io/n3xtchen/data\_analytics/2017/05/17/data-science-project-rule][1]
 
 [1]:	https://n3xtchen.github.io/n3xtchen/data_analytics/2017/05/17/data-science-project-rule
