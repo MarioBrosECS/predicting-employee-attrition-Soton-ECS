@@ -27,6 +27,7 @@ A repo for Human Resources Analytics by using data mining
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Hand in Links | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
+| Presentation | 12/13/14/15-Mar-2018 | In Class | Time TBC |
 | Conference Paper | 16-May-2018 16:00 | [Final Paper Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Open |
 
 ### Overdue Deadlines
@@ -51,7 +52,7 @@ A repo for Human Resources Analytics by using data mining
     - Handling continuous values
         - To maximize the information gain by using dichotomies and greedy algorithms.
     - Post pruning
-        - To improve the generalization ability.
+        - To improve the generalisation ability.
         
 2. Logistic Regression (Python) - 87%
     - Getting the expression of logistic regression by using sigmoid function.
@@ -74,7 +75,7 @@ A repo for Human Resources Analytics by using data mining
     - Random Forest after using PCA.  Then construct ROC and K-fold cross-validation (Under Construction)
     
 2. Data Cleaning (Python)
-    - Data Quantization
+    - Data Quantisation
 
 3. Data Analysis (R)
     - Correlation Coefficient
@@ -86,7 +87,8 @@ A repo for Human Resources Analytics by using data mining
 ### [Da An ~ windknow123](#weekly-summary-of-the-work-1)
 1. K-means (Python) - May be discarded
 
-2. Fisher (Under Construction - Python)
+2. Fisher (Python) - 86.7%
+    - with K-fold cross-validation
 
 3. Data Cleaning (Python)
     - Deleted useless columns
@@ -97,8 +99,8 @@ A repo for Human Resources Analytics by using data mining
     - Showing that different clusters have different features in a radar chart.
 
 ### [Zihan Wang ~ wzhyzrsyj](#weekly-summary-of-the-work-1)
-1. Random Survival Forest (R) - 83%
-    - Appear to have less accuracy result, may be discarded.
+1. Random Forest (R) - 83%
+    - Random Survival Forest (R) appears to have less accuracy result, may be discarded.
 
 2. Data Visualization (To be proved)
     - A graph of decision tree
