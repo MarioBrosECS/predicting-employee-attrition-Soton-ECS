@@ -20,9 +20,9 @@ A repo for Human Resources Analytics by using data mining
 
 ## [Deadline Tables](#table-of-contents)
 ### Dates of Meetings and Other Tasks
-| Tasks | Dates | Hand in Links | Tasks Status |
+| Tasks | Dates | Places | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
-| Next Meeting | TBC | TBC | TBC |
+| Presentation Meeting | 7-Mar-2018 10:00 | [Room 3E, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Confirmed |
 
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Hand in Links | Tasks Status |
