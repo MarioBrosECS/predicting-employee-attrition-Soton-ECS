@@ -20,14 +20,14 @@ A repo for Human Resources Analytics by using data mining
 
 ## [Deadline Tables](#table-of-contents)
 ### Dates of Meetings and Other Tasks
-| Tasks | Dates | Places | Tasks Status |
-| :-----: | :-----: | :--------------: | :-------------: |
-| Presentation Meeting | 7-Mar-2018 10:00 | [Room 3E, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Confirmed |
+| Tasks | Dates | Document Links | Places | Tasks Status |
+| :-----: | :-----: | :------------------: | :------: | :-------------: |
+| Presentation Meeting 2 | 11-Mar-2018 11:00 - 13:00 | [PowerPoint Link](https://1drv.ms/p/s!AtdYNJDGWupOgadBZP8KFcdgaMqGlw) | [Room 3E, Level 3, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Confirmed |
 
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Hand in Links | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
-| Presentation | 12/13/14/15-Mar-2018 | In Class | Time TBC |
+| Presentation | 12/13/14/15-Mar-2018 | In Class | Randomly Picks |
 | Conference Paper | 16-May-2018 16:00 | [Final Paper Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Open |
 
 ### Overdue Deadlines
@@ -37,6 +37,7 @@ A repo for Human Resources Analytics by using data mining
 | Review of Brief | 15-Feb-2018 00:00 | [First Brief Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed |
 | Project Brief | 16-Feb-2018 16:00 | [Brief Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed 2nd Ver. handed |
 | Basic Algorithm Talk | 19-Feb-2018 16:00 | Talk Through After Class | Closed |
+| Presentation Meeting 1 | 7-Mar-2018 10:00 | [Room 3E, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Confirmed |
 
 ## [Weekly Summary of The Work](#table-of-contents)
 1. [Yang Zhou ~ Ernest ~ moonsin](#yang-zhou--ernest--moonsin)
@@ -95,26 +96,29 @@ A repo for Human Resources Analytics by using data mining
     - Change the character string into int
     - Data Standardisation
 
-4. Data Visualization
+4. Data Visualisation
     - Showing that different clusters have different features in a radar chart.
 
 ### [Zihan Wang ~ wzhyzrsyj](#weekly-summary-of-the-work-1)
 1. Random Forest (R) - 83%
     - Random Survival Forest (R) appears to have less accuracy result, may be discarded.
 
-2. Data Visualization (To be proved)
+2. Data Visualisation
     - A graph of decision tree
     - Analysis to the features
 
 ### [Mardhiyyah Rafrin](#weekly-summary-of-the-work-1)
 1. SVM - 85%
     - When tried normalisation, it will be reduced to 83%.
+    - When using 400 data, result returns 90%.
 
 2. Data Analysis
     - Had paper about imbalance dataset for SVM. (Under construction)
     
 3. Data Cleaning
     - Basic data cleaning to be applied with SVM.
+    
+4. Data Visualisation
 
 ## [Work Flow](#table-of-contents)
 Follow Github Flow
