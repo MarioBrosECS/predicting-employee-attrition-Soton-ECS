@@ -22,7 +22,7 @@ A repo for Human Resources Analytics by using data mining
 ### Dates of Meetings and Other Tasks
 | Tasks | Dates | Document Links | Places | Tasks Status |
 | :-----: | :-----: | :------------------: | :------: | :-------------: |
-| Presentation Meeting 2 | 11-Mar-2018 11:00 - 13:00 | [PowerPoint Link](https://1drv.ms/p/s!AtdYNJDGWupOgadBZP8KFcdgaMqGlw) | [Room 3E, Level 3, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Confirmed |
+| Next Meeting | TBC | TBC | TBC | TBC |
 
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Hand in Links | Tasks Status |
@@ -31,13 +31,14 @@ A repo for Human Resources Analytics by using data mining
 | Conference Paper | 16-May-2018 16:00 | [Final Paper Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Open |
 
 ### Overdue Deadlines
-| Tasks | Dates | Hand in Links | Tasks Status |
+| Tasks | Dates | Objectives | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
 | Build Algorithm | Delayed to 14-Feb-2018 11:45 | Talk Through After Class | Closed |
 | Review of Brief | 15-Feb-2018 00:00 | [First Brief Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed |
 | Project Brief | 16-Feb-2018 16:00 | [Brief Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/1/) | Closed 2nd Ver. handed |
 | Basic Algorithm Talk | 19-Feb-2018 16:00 | Talk Through After Class | Closed |
-| Presentation Meeting 1 | 7-Mar-2018 10:00 | [Room 3E, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Confirmed |
+| Presentation Meeting 1 | 7-Mar-2018 10:00 | Location: [Room 3E, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Closed |
+| Presentation Meeting 2 | 11-Mar-2018 11:00 - 13:00 | [PowerPoint Link](https://1drv.ms/p/s!AtdYNJDGWupOgadBZP8KFcdgaMqGlw), Location: [Room 3E, Level 3, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Cancelled |
 
 ## [Weekly Summary of The Work](#table-of-contents)
 1. [Yang Zhou ~ Ernest ~ moonsin](#yang-zhou--ernest--moonsin)
