@@ -20,9 +20,9 @@ A repo for Human Resources Analytics by using data mining
 
 ## [Deadline Tables](#table-of-contents)
 ### Dates of Meetings and Other Tasks
-| Tasks | Dates | Document Links | Places | Tasks Status |
-| :-----: | :-----: | :------------------: | :------: | :-------------: |
-| Next Meeting | TBC | TBC | TBC | TBC |
+| Tasks | Dates | Places | Tasks Status |
+| :-----: | :-----: | :------: | :-------------: |
+| Report Talk | 1-May-2018 14:00 | [Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Open |
 
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Hand in Links | Tasks Status |
@@ -85,6 +85,14 @@ A repo for Human Resources Analytics by using data mining
         - Using cor method to find the correlation coefficient between each feature and other ones.
     - Stepwise Regression
         -To find the unbalanced data
+        
+4. Data Visualisation
+    - Some graphs of correlation coefficient
+        - Genderand Age for Attrition
+        - JobLevel and MonthlyIncome for Attrition
+        - MonthlyIncome with Attrition
+        - Years at Company Age and Years Working with CurrManager for Attrition
+        - Correlation Plot
 
 ### [Da An ~ windknow123](#weekly-summary-of-the-work-1)
 1. K-means (Python) - May be discarded
