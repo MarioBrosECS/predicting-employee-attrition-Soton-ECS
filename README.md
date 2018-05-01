@@ -22,12 +22,11 @@ A repo for Human Resources Analytics by using data mining
 ### Dates of Meetings and Other Tasks
 | Tasks | Dates | Places | Tasks Status |
 | :-----: | :-----: | :------: | :-------------: |
-| Report Talk | 1-May-2018 14:00 | [Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Open |
+| Report Draft | 12-May-2018 00:00 | [Editable Report Link](https://1drv.ms/w/s!AtdYNJDGWupOgadXPb_f644qkIr1HQ) | Open |
 
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Hand in Links | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
-| Presentation | 12/13/14/15-Mar-2018 | In Class | Randomly Picks |
 | Conference Paper | 16-May-2018 16:00 | [Final Paper Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Open |
 
 ### Overdue Deadlines
@@ -39,6 +38,8 @@ A repo for Human Resources Analytics by using data mining
 | Basic Algorithm Talk | 19-Feb-2018 16:00 | Talk Through After Class | Closed |
 | Presentation Meeting 1 | 7-Mar-2018 10:00 | Location: [Room 3E, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Closed |
 | Presentation Meeting 2 | 11-Mar-2018 11:00 - 13:00 | [PowerPoint Link](https://1drv.ms/p/s!AtdYNJDGWupOgadBZP8KFcdgaMqGlw), Location: [Room 3E, Level 3, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Cancelled |
+| Presentation | 15-Mar-2018 | In Class | Last Group on 15th Closed |
+| Report Talk | 1-May-2018 14:00 | [58 / 1009](https://goo.gl/maps/RbGeAwpR2hp) | Closed |
 
 ## [Weekly Summary of The Work](#table-of-contents)
 1. [Yang Zhou ~ Ernest ~ moonsin](#yang-zhou--ernest--moonsin)
@@ -97,7 +98,7 @@ A repo for Human Resources Analytics by using data mining
 ### [Da An ~ windknow123](#weekly-summary-of-the-work-1)
 1. K-means (Python) - May be discarded
 
-2. Fisher (Python) - 86.7%
+2. LDA (Python) - 86.7%
     - with K-fold cross-validation
 
 3. Data Cleaning (Python)
