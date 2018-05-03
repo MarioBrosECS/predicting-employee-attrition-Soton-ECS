@@ -22,7 +22,7 @@ A repo for Human Resources Analytics by using data mining
 ### Dates of Meetings and Other Tasks
 | Tasks | Dates | Useful Links | Tasks Status |
 | :-----: | :-----: | :------: | :-------------: |
-| Report Draft | 12-May-2018 00:00 | [Editable Report Link](https://1drv.ms/w/s!AtdYNJDGWupOgadXPb_f644qkIr1HQ); [Report Disscussion Link](https://drive.google.com/open?id=1B23ucWy0HrkXQaCgzU16OWzeNoeTloRL) | Open |
+| Report Draft | 12-May-2018 00:00 | [Editable Report Link](https://1drv.ms/w/s!AtdYNJDGWupOgadXPb_f644qkIr1HQ); [Report Disscussion Link](https://youtu.be/FhwKSwbSSeg) | Open |
 
 ### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Hand in Links | Tasks Status |
