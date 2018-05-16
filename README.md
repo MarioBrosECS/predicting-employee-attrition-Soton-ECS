@@ -1,10 +1,7 @@
 # predicting-employee-attrition-Soton-ECS
 ## Table of Contents
 1. ### [Description](#description-1)
-2. ### [Deadline Tables](#deadline-tables-1)
-    - [Dates of Meetings and Other Tasks](#dates-of-meetings-and-other-tasks)
-    - [Deadline of The Group Coursework](#deadline-of-the-group-coursework)
-    - [Overdue Deadlines](#overdue-deadlines)
+2. ### [Deadlines of The Group Coursework](#deadlines-of-the-group-coursework-1)
 3. ### [Weekly Summary of The Work](#weekly-summary-of-the-work-1)
     - [Yang Zhou ~ Ernest ~ moonsin](#yang-zhou--ernest--moonsin)
     - [Bang Du ~ Tedbang](#bang-du--tedbang)
@@ -18,18 +15,7 @@
 ## [Description](#table-of-contents)
 A repo for Human Resources Analytics by using data mining
 
-## [Deadline Tables](#table-of-contents)
-### Dates of Meetings and Other Tasks
-| Tasks | Dates | Useful Links | Tasks Status |
-| :-----: | :-----: | :------: | :-------------: |
-| Report Draft | 12-May-2018 00:00 | [Editable Report Link](https://1drv.ms/w/s!AtdYNJDGWupOgadXPb_f644qkIr1HQ); [Report Disscussion Link](https://youtu.be/FhwKSwbSSeg) | Open |
-
-### Deadline of The [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
-| Tasks | Dates | Hand in Links | Tasks Status |
-| :-----: | :-----: | :--------------: | :-------------: |
-| Conference Paper | 16-May-2018 16:00 | [Final Paper Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Open |
-
-### Overdue Deadlines
+## [Deadlines of The](#table-of-contents) [Group Coursework](http://comp6237.ecs.soton.ac.uk/cw/coursework1.html)
 | Tasks | Dates | Objectives | Tasks Status |
 | :-----: | :-----: | :--------------: | :-------------: |
 | Build Algorithm | Delayed to 14-Feb-2018 11:45 | Talk Through After Class | Closed |
@@ -40,6 +26,11 @@ A repo for Human Resources Analytics by using data mining
 | Presentation Meeting 2 | 11-Mar-2018 11:00 - 13:00 | [PowerPoint Link](https://1drv.ms/p/s!AtdYNJDGWupOgadBZP8KFcdgaMqGlw), Location: [Room 3E, Level 3, Hartley Library](https://goo.gl/maps/T37bZLqVk4M2) | Cancelled |
 | Presentation | 15-Mar-2018 | In Class | Last Group on 15th Closed |
 | Report Talk | 1-May-2018 14:00 | [58 / 1009](https://goo.gl/maps/RbGeAwpR2hp) | Closed |
+| Report Draft | 12-May-2018 00:00 | [Editable Report Link](https://1drv.ms/w/s!AtdYNJDGWupOgadXPb_f644qkIr1HQ); [Report Disscussion Link](https://youtu.be/FhwKSwbSSeg) | Closed |
+| Report First Draft Talk | 15-May-2018 14:00 | [58 / 1009](https://goo.gl/maps/RbGeAwpR2hp) | Closed |
+| Report Second Draft Talk | 16-May-2018 12:00 | [05 / 2011](https://goo.gl/maps/DoTPt1ptRRz) | Closed |
+| Conference Paper | 16-May-2018 16:00 | [Final Paper Hand in](http://handin.ecs.soton.ac.uk/handin/1718/COMP6237/2/) | Closed 2 Attemps |
+
 
 ## [Weekly Summary of The Work](#table-of-contents)
 1. [Yang Zhou ~ Ernest ~ moonsin](#yang-zhou--ernest--moonsin)
